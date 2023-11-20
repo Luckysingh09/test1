@@ -47,8 +47,10 @@
 }
 
 .lower_nav_center a {
-  margin: 0 10px;
-  font-weight: 500;
+  margin: 0 20px;
+  font-weight: 700;
+  padding: 0 10px;
+
 }
 
 .make_payment_btn {
@@ -225,30 +227,58 @@
 }
 
 
+footer{
 
-.footer_container{
-background-color: #6d3078    ;
-    height: 50px;
+  background-color: #333333;
+  color: #fff;
+}
 
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-   
+footer h1{
+
+  text-align: center;
+  margin-bottom: 35px;
+  color: #fbad86;
+}
+
+.contact_us_section{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.contact_cir{
+width: 60px;
+height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.contact_cir i{
+
+  position: absolute;
+  left: 20px;
+  top: 10px;
+
 }
 
 
-.copyright{
+.address{
 
-    font-weight: 400;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+
+  transition: all 0.5s;
+
+}
+.address:hover{
+
+  color: #f37435;
 }
 
+.contact_cir{
 
-
-.social_btn i{
-
-    
-font-size: 20px;
-    margin-right: 10px;
+  margin-right: 10px;
 }
