@@ -36,8 +36,10 @@
   padding: 11px 11px;
 }
 .lower_container {
-  padding-top: 25px;
-  height: 100px;
+  padding: 25px;
+  height: 120px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ 
 }
 
 .lower_nav {
@@ -75,15 +77,19 @@
 }
 
 .lower_nav_left img {
-  width: 90px;
+  width: 100px;
   margin-right: 30px;
+  margin-bottom: 3px;
 }
 
 .lower_nav_right i {
   font-size: 19px;
   margin-right: 10px;
 }
+.carousel{
 
+  margin-top: 2px;
+}
 .carousel-cell {
   width: 100%;
 }
